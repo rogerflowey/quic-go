@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/quic-go/quic-go/public/wire"
 	"github.com/quic-go/quic-go/quicvarint"
 )
 

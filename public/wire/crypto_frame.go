@@ -3,7 +3,7 @@ package wire
 import (
 	"io"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/quic-go/quic-go/public/protocol"
 	"github.com/quic-go/quic-go/quicvarint"
 )
 

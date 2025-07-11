@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	mocklogging "github.com/quic-go/quic-go/internal/mocks/logging"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
 	"github.com/quic-go/quic-go/logging"
+	mocklogging "github.com/quic-go/quic-go/public/mocks/logging"
+	"github.com/quic-go/quic-go/public/protocol"
+	"github.com/quic-go/quic-go/public/qerr"
+	"github.com/quic-go/quic-go/public/utils"
+	"github.com/quic-go/quic-go/public/wire"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

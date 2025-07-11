@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"iter"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/quic-go/quic-go/public/protocol"
 )
 
 type sentPacketHistory struct {

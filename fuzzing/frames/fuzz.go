@@ -3,9 +3,9 @@ package frames
 import (
 	"fmt"
 
-	"github.com/quic-go/quic-go/internal/ackhandler"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/quic-go/quic-go/public/ackhandler"
+	"github.com/quic-go/quic-go/public/protocol"
+	"github.com/quic-go/quic-go/public/wire"
 )
 
 const version = protocol.Version1

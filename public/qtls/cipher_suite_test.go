@@ -6,7 +6,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/quic-go/quic-go/internal/testdata"
+	"github.com/quic-go/quic-go/public/testdata"
 
 	"github.com/stretchr/testify/require"
 )

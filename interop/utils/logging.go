@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/internal/utils"
 	"github.com/quic-go/quic-go/logging"
+	"github.com/quic-go/quic-go/public/utils"
 	"github.com/quic-go/quic-go/qlog"
 )
 

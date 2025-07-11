@@ -13,7 +13,7 @@ import (
 	reflect "reflect"
 	time "time"
 
-	ackhandler "github.com/quic-go/quic-go/internal/ackhandler"
+	ackhandler "github.com/quic-go/quic-go/public/ackhandler"
 	gomock "go.uber.org/mock/gomock"
 )
 

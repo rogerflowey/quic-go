@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
 	"github.com/quic-go/quic-go/logging"
+	"github.com/quic-go/quic-go/public/protocol"
 )
 
 func NewTracer(w io.WriteCloser) *logging.Tracer {

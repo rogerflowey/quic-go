@@ -13,7 +13,7 @@ import (
 
 	"github.com/quic-go/quic-go"
 	"github.com/quic-go/quic-go/http3"
-	"github.com/quic-go/quic-go/internal/testdata"
+	"github.com/quic-go/quic-go/public/testdata"
 	"github.com/quic-go/quic-go/qlog"
 )
 

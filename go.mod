@@ -1,4 +1,4 @@
-module github.com/rogerflowey/quic-go
+module github.com/quic-go/quic-go
 
 go 1.23
 

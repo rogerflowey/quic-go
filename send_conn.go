@@ -4,8 +4,8 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
+	"github.com/quic-go/quic-go/public/protocol"
+	"github.com/quic-go/quic-go/public/utils"
 )
 
 // A sendConn allows sending using a simple Write() on a non-connected packet conn.

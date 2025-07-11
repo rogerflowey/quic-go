@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/handshake"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
 	"github.com/quic-go/quic-go/logging"
+	"github.com/quic-go/quic-go/public/handshake"
+	"github.com/quic-go/quic-go/public/protocol"
+	"github.com/quic-go/quic-go/public/qerr"
+	"github.com/quic-go/quic-go/public/utils"
+	"github.com/quic-go/quic-go/public/wire"
 )
 
 // ErrServerClosed is returned by the [Listener] or [EarlyListener]'s Accept method after a call to Close.

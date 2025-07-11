@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/quic-go/quic-go/public/protocol"
+	"github.com/quic-go/quic-go/public/qerr"
+	"github.com/quic-go/quic-go/public/wire"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

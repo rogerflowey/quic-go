@@ -3,7 +3,7 @@ package quic
 import (
 	"net"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/quic-go/quic-go/public/protocol"
 )
 
 type sender interface {

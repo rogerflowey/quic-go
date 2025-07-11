@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
+	"github.com/quic-go/quic-go/public/protocol"
 )
 
 // Bandwidth of a connection

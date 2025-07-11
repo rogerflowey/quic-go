@@ -3,8 +3,8 @@ package quic
 import (
 	"testing"
 
-	"github.com/quic-go/quic-go/internal/wire"
 	"github.com/quic-go/quic-go/logging"
+	"github.com/quic-go/quic-go/public/wire"
 
 	"github.com/stretchr/testify/require"
 )
